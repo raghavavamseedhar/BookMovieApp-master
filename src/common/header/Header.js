@@ -13,6 +13,8 @@ import Modal from "react-modal";
 import TabPanel from "../tabPanel/TabPanel";
 import "./Header.css";
 
+//Header.JS   common functionality
+
 const Header = ({ bookShow, bookShowId }) => {
   const [loginOpen, setLoginOpen] = useState(false);
   const [value, setValue] = useState(0);

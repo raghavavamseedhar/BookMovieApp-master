@@ -12,6 +12,8 @@ import GridListTileBar from "@material-ui/core/GridListTileBar";
 import "./Details.css";
 import { Fragment } from "react";
 
+//Logic for movie details
+
 const Details = () => {
   let { id } = useParams();
   let [movieData, setMovieData] = useState("");

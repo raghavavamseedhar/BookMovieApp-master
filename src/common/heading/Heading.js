@@ -1,3 +1,5 @@
+//Heading.JS for Upgrad React project
+
 import React from "react";
 import "./Heading.css";
 

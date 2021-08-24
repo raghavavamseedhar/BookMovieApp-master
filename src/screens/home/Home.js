@@ -41,6 +41,8 @@ const useStyles = makeStyles({
   },
 });
 
+//Logic for Home page of BookMyMovie app
+
 const Home = () => {
   const [data, setData] = useState([]);
   const [genres, setGenres] = useState([]);
